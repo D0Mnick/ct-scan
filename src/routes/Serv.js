@@ -1,15 +1,15 @@
-import Products from "../components/Products"
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
+import Service from "../components/Service"
 
-function Product() {
+function Serv() {
   return (
     <div>
         <Nav />
-        <Products />
-        <Footer/>
+        <Service />
+        <Footer />
     </div>
   )
 }
 
-export default Product
+export default Serv

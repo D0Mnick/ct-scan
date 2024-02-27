@@ -13,16 +13,16 @@ function Nav() {
         </div>
        <ul className='nav'>
         <li>
-            Home
+            <Link to="/"> Home</Link>
         </li>
         <li>
-            Products
+        <Link to="/product"> Product</Link>
         </li>
         <li>
-            Services
+        <Link to="/serv"> Services</Link>
         </li>
         <li>
-            Contact Us
+        <Link to="/contact"> Contact</Link>        
         </li>
        </ul>
 
