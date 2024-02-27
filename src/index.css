@@ -38,7 +38,7 @@ code {
 }
 
 .nav li {
- margin-left: 15px;
+ margin-left: 25px;
  list-style: none;
  color: #386BAF;
 }
@@ -67,14 +67,14 @@ code {
 
 .hero-products .hero h1{
   color: #386BAF;
-  font-size: 90px;
-  line-height: 70px;
-  text-transform: capitalize;
-  width: 390px;
+  font-size: 85px;
+  line-height: 80px;
+  width: 370px;
 }
 
 .hero-products .hero p {
   font-weight: 100;
+  font-size: 20px;
 
 }
 .hero-products .hero button {
@@ -120,7 +120,7 @@ cursor: pointer;
   padding: 10px 30px 10px 30px;
   border: 1px solid white;
   border-radius: 10px;
-  width: 160px;
+  width: 250px;
   cursor: pointer;
 }
 
@@ -213,10 +213,11 @@ margin-top: 60px;
   }
 
   .services-card img{
-    width: 250px;
-    height: 250px;
+    width: 290px;
+height: 200px;
     border-radius: 10px;
     cursor: pointer;
+    object-fit: cover;
     }
 
     .services-card p{

@@ -5,8 +5,8 @@ function Hero() {
     <div className="hero-products">
         <div className="hero"> 
         <div className='power'>
-        <h1>the power to elevate.</h1>
-        <p>Providing High Quality Medical and other Medical Supplies</p>
+        <h1>The Power to Elevate.</h1>
+        <p>Providing High Quality Medical Machines and other Medical Supplies</p>
         </div>
         <button>Explore More About Product</button>
         </div>
