@@ -35,17 +35,23 @@ code {
 
 .nav{
   display: flex;
+ list-style: none;
+
 }
 
 .nav li {
  margin-left: 25px;
- list-style: none;
  color: #386BAF;
+}
+ a{
+ 
+  text-decoration: none;
 }
 
 .nav li:hover{
   color: #052652;
   cursor: pointer;
+  text-decoration: none;
 }
 
 
@@ -135,7 +141,7 @@ cursor: pointer;
 .product-container {
   display: flex;
   flex-direction: column;
-margin: 0px 80px 0px 80px;
+margin: 0px 190px 0px 190px;
 }
 
 .product-container h1{
@@ -159,10 +165,11 @@ justify-content: space-evenly;
 }
 
 .project-card img{
-width: 250px;
-height: 250px;
-border-radius: 10px;
-cursor: pointer;
+  width: 250px;
+  height: 250px;
+      border-radius: 10px;
+      cursor: pointer;
+      /* object-fit: cover; */
 }
 
 .head{
@@ -181,7 +188,7 @@ cursor: pointer;
 .services-container {
   display: flex;
   flex-direction: column;
-margin: 0px 80px 0px 80px;
+margin: 0px 190px 0px 190px;
 margin-top: 60px;
 }
 
