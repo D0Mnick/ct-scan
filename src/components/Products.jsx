@@ -3,7 +3,7 @@ import ProductCard from "./ProductCard"
 
 function Products() {
   return (
-    <div className="product-container">
+    <div className="product-container" data-aos="fade-up">
         <h1>OUR PRODUCTS</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cum vel quasi iste minus debitis optio quisquam impedit, voluptate eius magni non molestias tempore, nostrum alias eveniet possimus doloribus consectetur.</p>
         <div className="project-container">

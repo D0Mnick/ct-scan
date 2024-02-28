@@ -2,7 +2,7 @@ import prod from '../assets/img5.png'
 
 function Hero() {
   return (
-    <div className="hero-products">
+    <div className="hero-products" data-aos="fade-right">
         <div className="hero"> 
         <div className='power'>
         <h1>The Power to Elevate.</h1>
@@ -10,7 +10,7 @@ function Hero() {
         </div>
         <button>Explore More About Product</button>
         </div>
-        <div className="imgs">
+        <div className="imgs" data-aos="fade-left">
        
           <img src={prod} alt="no image" />
         

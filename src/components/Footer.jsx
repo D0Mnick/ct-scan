@@ -2,9 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='container-footer'>
+    <div className='container-footer'  >
         
-        <ul className='footer-menu'>
+        <ul className='footer-menu' >
             <li>Home</li>
             <li>Products</li>
             <li>Services</li>

@@ -5,8 +5,8 @@ import logo from '../assets/logo.jpg'
 function Nav() {
 
   return (
-    <div className='container'>
-        <div className='logo'>
+    <div className='container' >
+        <div  className='logo'>
         <img src={logo} alt="Logo" />
         <h1>
             The Philippines Medical Depot</h1>
