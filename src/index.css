@@ -39,7 +39,7 @@ code {
 
 }
 
-.nav li {
+.container .nav li {
  margin-left: 25px;
  color: #386BAF;
 }
@@ -48,10 +48,10 @@ code {
   text-decoration: none;
 }
 
-.nav li:hover{
-  color: #437dc9;
+.container .nav li:hover{
+ 
   cursor: pointer;
-
+ color: red;
 }
 
 
@@ -62,6 +62,7 @@ code {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 70px;
+  margin: 0px 140px 0px 140px;
 }
 
 .hero{
@@ -73,9 +74,9 @@ code {
 
 .hero-products .hero h1{
   color: #386BAF;
-  font-size: 85px;
+  font-size: 75px;
   line-height: 80px;
-  width: 370px;
+  width: 320px;
 }
 
 .hero-products .hero p {
@@ -100,8 +101,9 @@ cursor: pointer;
 }
 
 .hero-products .imgs img {
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 370px;
+  object-fit: cover;
 }
 
 /* .hero-products .imgs img:hover{
@@ -121,13 +123,21 @@ cursor: pointer;
 }
 
 .hero-products .imgs button{
-  background-color:#386BAF ;
+  /* background-color:#386BAF ;
   color: aliceblue;
   padding: 10px 30px 10px 30px;
   border: 1px solid white;
   border-radius: 10px;
   width: 250px;
-  cursor: pointer;
+  cursor: pointer; */
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  background:#386BAF ;
+  color: white;
+cursor: pointer;
 }
 
 .hero-products .imgs button:hover {
@@ -141,7 +151,7 @@ cursor: pointer;
 .product-container {
   display: flex;
   flex-direction: column;
-margin: 0px 175px 0px 175px;
+margin: 60px 175px 0px 175px;
 }
 
 .product-container h1{
@@ -188,8 +198,8 @@ justify-content: space-evenly;
 .services-container {
   display: flex;
   flex-direction: column;
-margin: 0px 175px 0px 175px;
-margin-top: 60px;
+margin: 60px 175px 0px 175px;
+
 }
 
 .services-container h1{
