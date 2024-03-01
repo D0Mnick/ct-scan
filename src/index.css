@@ -62,7 +62,8 @@ code {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 70px;
-  margin: 0px 140px 0px 140px;
+  margin: 60px 140px 0px 140px;
+ 
 }
 
 .hero{
@@ -100,11 +101,30 @@ cursor: pointer;
   color: aliceblue;
 }
 
+/* .hero-products .imgs img {
+  width: 500px;
+  height: 370px;
+  object-fit: cover;
+} */
+
+
+
 .hero-products .imgs img {
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
   width: 500px;
   height: 370px;
   object-fit: cover;
 }
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-25px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-25px); }
+}
+
 
 /* .hero-products .imgs img:hover{
   
